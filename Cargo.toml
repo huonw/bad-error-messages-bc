@@ -1,0 +1,10 @@
+[package]
+
+name = "c"
+version = "0.0.1"
+authors = ["Huon Wilson <dbau.pp@gmail.com>"]
+
+[dependencies.a]
+git = "https://github.com/huonw/bad-error-messages-a"
+[dependencies.b]
+path = "b"
